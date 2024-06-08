@@ -1,0 +1,17 @@
+@import "./main.scss";
+
+
+.loaderVeiw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .spinner {
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    animation: spin-anim 3.2s linear infinite;
+  }

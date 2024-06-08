@@ -1,0 +1,152 @@
+.backImage {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px 40px 20px;
+  background-color: #14608D;
+  opacity: 0.9;
+  align-items: normal;
+}
+
+.homeContent {
+  background-color: #14608D;
+  opacity: 0.7;
+  padding: 8% 0 10% 10%;
+}
+
+.leftNav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.rightNav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.cartNav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contactNav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  animation: fadeIn 2s ease-in;
+}
+
+.carousel-container {
+  overflow: hidden;
+  padding: 30px;
+}
+
+.carousel {
+  display: flex;
+  animation: carouselAnimation 30s linear infinite;
+}
+
+.carousel-item {
+  flex: 0 0 20%;
+}
+
+@keyframes carouselAnimation {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+.advertisementContainer {
+  background-color: white;
+  padding: 0 100px 80px 100px;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.fashionImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 500px;
+  width: 400px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4392156863);
+  background-blend-mode: multiply;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+
+.menfashionImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: initial;
+  height: 500px;
+  width: 400px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4392156863);
+  background-blend-mode: multiply;
+  padding-bottom: 30px;
+}
+
+.offerTag {
+  color: white;
+  font-size: 28px;
+  font-weight: 800;
+  opacity: 0.7;
+}
+
+.fashionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+}
+
+.brandDesc {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.homeproductsContainer {
+  background-color: #F5F7F9;
+}/*# sourceMappingURL=hompage.css.map */

@@ -1,0 +1,40 @@
+.specialEditionContainer {
+  display: flex;
+  border: 10px solid #F5F7F9;
+}
+
+.specialEditionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 8% 0% 8% 12%;
+  width: 50%;
+  gap: 20px;
+}
+
+.aboutSite {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 80px;
+}
+
+.specialOffer {
+  background-color: white;
+  padding: 60px 20px 60px 60px;
+  font-size: 27px;
+  font-weight: 600;
+  border-top: 1px solid rgb(189, 187, 187);
+  border-bottom: 1px solid rgb(189, 187, 187);
+}
+
+.allCollections {
+  background-color: white;
+  padding: 49px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 12px;
+}/*# sourceMappingURL=specialEdition.css.map */

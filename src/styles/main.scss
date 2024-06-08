@@ -1,0 +1,8 @@
+$primary-color:black;
+$secondary-color:#0075C4;
+
+@mixin flex-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
