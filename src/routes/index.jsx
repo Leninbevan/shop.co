@@ -1,10 +1,8 @@
 import React, { Suspense, useState } from 'react'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { privateRoutes, publicRoutes } from '../utils/appRoutes'
-import { Box } from '@mui/material'
-import Loder from "../assests/Logo/logo@2x-free-img.png"
-import "../styles/approutes.css";
 import { useSelector } from 'react-redux'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import "../styles/approutes.css"
+import { privateRoutes, publicRoutes } from '../utils/appRoutes'
 
 const Approutes = () => {
     const [auth, setAuth] = useState(JSON.parse(localStorage.getItem('authentication')));
