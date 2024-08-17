@@ -7,14 +7,12 @@ import { privateRoutes, publicRoutes } from '../utils/appRoutes'
 const Approutes = () => {
     const [auth, setAuth] = useState(JSON.parse(localStorage.getItem('authentication')));
     const state = useSelector((state) => state.user.value.authentication);
-    console.log("state",state);
     return (
         <BrowserRouter>
             <Routes>
                 {auth?
                     privateRoutes.map((route,index)=>{
                         let Component = route.component;
-                        console.log(route.path);
                         return (
                                 <Route
                                     key={index}

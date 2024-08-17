@@ -1,9 +1,9 @@
 .productsContainer {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding: 40px 40px 40px 100px;
-  gap: 20px;
+  row-gap: 30px;
 }
 
 .homeProductContainer {
